@@ -21,10 +21,8 @@
                 <polygon class="diamond-path" points="100,10 190,100 100,190 10,100" fill="none" stroke="#e31b23"
                     stroke-width="4" />
                 <polygon points="100,25 175,100 100,175 25,100" fill="rgba(227,27,35,0.15)" />
-                <!-- Spider icon -->
                 <circle cx="100" cy="85" r="12" fill="#e31b23" />
                 <ellipse cx="100" cy="110" rx="18" ry="22" fill="#e31b23" />
-                <!-- Legs -->
                 <line x1="82" y1="100" x2="55" y2="80" stroke="#e31b23" stroke-width="3" stroke-linecap="round" />
                 <line x1="82" y1="108" x2="50" y2="108" stroke="#e31b23" stroke-width="3" stroke-linecap="round" />
                 <line x1="82" y1="116" x2="55" y2="135" stroke="#e31b23" stroke-width="3" stroke-linecap="round" />
@@ -40,11 +38,8 @@
     <!-- NAVBAR -->
     <nav class="navbar">
         <a href="#" class="nav-logo">
-            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                <polygon points="25,2 48,25 25,48 2,25" fill="#e31b23" />
-                <circle cx="25" cy="21" r="4" fill="#fff" />
-                <ellipse cx="25" cy="30" rx="6" ry="8" fill="#fff" />
-            </svg>
+            <img src="assets/logo.png" alt="Mega Black Logo"
+                style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
             <span>MEGA BLACK</span>
         </a>
         <ul class="nav-links">
@@ -79,41 +74,82 @@
     <section id="desentupidora" class="desentupidora-section">
         <div class="section-header reveal">
             <span class="section-badge badge-blue">🔧 Desentupidora</span>
-            <h2>Desentupidora Rei dos Reis</h2>
+            <h2>Serviços de Desentupimento</h2>
             <p>Resolvemos qualquer problema de entupimento com agilidade e sem quebrar nada. Equipamentos de última
                 geração.</p>
         </div>
+
+        <!-- DESTAQUE COM IMAGEM -->
+        <div class="service-highlight reveal"
+            style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; max-width: 1200px; margin: 0 auto 60px;">
+            <div class="service-highlight-img">
+                <img src="assets/desentupimento.png" alt="Serviço de desentupimento profissional">
+            </div>
+            <div class="service-highlight-text">
+                <h3>Desentupimento Profissional</h3>
+                <p>Utilizamos máquinas rotativas de última geração para resolver entupimentos sem danificar sua
+                    tubulação.</p>
+                <ul class="highlight-list">
+                    <li>Desentupimento de esgoto residencial e comercial</li>
+                    <li>Vasos sanitários sem quebração</li>
+                    <li>Pias de cozinha e banheiro</li>
+                    <li>Calhas, ralos e colunas de esgoto</li>
+                    <li>Caça vazamento com detecção eletrônica</li>
+                </ul>
+            </div>
+        </div>
+
         <div class="services-grid">
             <div class="service-card blue reveal">
-                <div class="service-icon icon-blue">🚿</div>
-                <h3>Desentupimento de Esgoto</h3>
-                <p>Desentupimos redes de esgoto residencial e comercial com máquinas rotativas profissionais.</p>
+                <div class="service-card-img"><img src="assets/service_esgoto.png" alt="Desentupimento Esgoto"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-blue">🚿</div>
+                    <h3>Desentupimento de Esgoto</h3>
+                    <p>Desentupimos redes de esgoto residencial e comercial com máquinas rotativas profissionais.</p>
+                </div>
             </div>
             <div class="service-card blue reveal">
-                <div class="service-icon icon-blue">🚽</div>
-                <h3>Desentupimento de Vaso</h3>
-                <p>Desentupimento de vasos sanitários sem quebração. Serviço rápido e garantido.</p>
+                <div class="service-card-img"><img src="assets/service_vaso.png" alt="Desentupimento Vaso"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-blue">🚽</div>
+                    <h3>Desentupimento de Vaso</h3>
+                    <p>Desentupimento de vasos sanitários sem quebração. Serviço rápido e garantido.</p>
+                </div>
             </div>
             <div class="service-card blue reveal">
-                <div class="service-icon icon-blue">🚰</div>
-                <h3>Desentupimento de Pia</h3>
-                <p>Resolvemos entupimentos de pia de cozinha e banheiro com técnicas não invasivas.</p>
+                <div class="service-card-img"><img src="assets/service_pia.png" alt="Desentupimento Pia"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-blue">🚰</div>
+                    <h3>Desentupimento de Pia</h3>
+                    <p>Resolvemos entupimentos de pia de cozinha e banheiro com técnicas não invasivas.</p>
+                </div>
             </div>
             <div class="service-card blue reveal">
-                <div class="service-icon icon-blue">🌧️</div>
-                <h3>Desentupimento de Calha</h3>
-                <p>Limpeza e desentupimento de calhas e ralos para evitar infiltrações.</p>
+                <div class="service-card-img"><img src="assets/service_calha.png" alt="Desentupimento Calha"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-blue">🌧️</div>
+                    <h3>Desentupimento de Calha</h3>
+                    <p>Limpeza e desentupimento de calhas e ralos para evitar infiltrações.</p>
+                </div>
             </div>
             <div class="service-card blue reveal">
-                <div class="service-icon icon-blue">💧</div>
-                <h3>Limpeza de Caixa D'Água</h3>
-                <p>Água limpa é vida! Limpamos sua caixa d'água eliminando bactérias, fungos e impurezas que causam
-                    doenças como Cólera, Hepatite A e Giardíase.</p>
+                <div class="service-card-img"><img src="assets/service_caixa_dagua.png" alt="Limpeza de Caixa D'Água">
+                </div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-blue">💧</div>
+                    <h3>Limpeza de Caixa D'Água</h3>
+                    <p>Água limpa é vida! Limpamos sua caixa d'água eliminando bactérias, fungos e impurezas que causam
+                        doenças.</p>
+                </div>
             </div>
             <div class="service-card blue reveal">
-                <div class="service-icon icon-blue">🔍</div>
-                <h3>Caça Vazamento</h3>
-                <p>Localizamos vazamentos em tubulações com equipamento de detecção eletrônica, sem quebrar paredes.</p>
+                <div class="service-card-img"><img src="assets/service_caca_vazamento.png" alt="Caça Vazamento"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-blue">🔍</div>
+                    <h3>Caça Vazamento</h3>
+                    <p>Localizamos vazamentos em tubulações com equipamento de detecção eletrônica, sem quebrar paredes.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -125,26 +161,59 @@
             <h2>Controle de Pragas Profissional</h2>
             <p>Eliminamos pragas urbanas com produtos de alta eficácia, seguros para sua família e pets.</p>
         </div>
+
+        <!-- DESTAQUE COM IMAGEM -->
+        <div class="service-highlight reverse reveal"
+            style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; max-width: 1200px; margin: 0 auto 60px; direction: rtl;">
+            <div class="service-highlight-img" style="direction: ltr;">
+                <img src="assets/dedetizacao.png" alt="Controle de pragas profissional">
+            </div>
+            <div class="service-highlight-text" style="direction: ltr;">
+                <h3>Dedetização Especializada</h3>
+                <p>Nossa equipe utiliza produtos de alta eficácia, seguros para humanos e pets, com garantia de
+                    resultado.</p>
+                <ul class="highlight-list red">
+                    <li>Baratas, formigas e traças</li>
+                    <li>Ratos e roedores</li>
+                    <li>Cupins de madeira e subterrâneo</li>
+                    <li>Aranhas peçonhentas</li>
+                    <li>Mosquitos da dengue e pulgas</li>
+                </ul>
+            </div>
+        </div>
+
         <div class="services-grid">
             <div class="service-card reveal">
-                <div class="service-icon icon-red">🪳</div>
-                <h3>Dedetização Geral</h3>
-                <p>Tratamento completo contra baratas, formigas, traças e outros insetos rasteiros.</p>
+                <div class="service-card-img"><img src="assets/dedetizacao.png" alt="Dedetização Geral"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-red">🪳</div>
+                    <h3>Dedetização Geral</h3>
+                    <p>Tratamento completo contra baratas, formigas, traças e outros insetos rasteiros.</p>
+                </div>
             </div>
             <div class="service-card reveal">
-                <div class="service-icon icon-red">🐀</div>
-                <h3>Desratização</h3>
-                <p>Eliminação de ratos e roedores com iscas profissionais e porta-iscas de segurança.</p>
+                <div class="service-card-img"><img src="assets/service_rato.png" alt="Desratização"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-red">🐀</div>
+                    <h3>Desratização</h3>
+                    <p>Eliminação de ratos e roedores com iscas profissionais e porta-iscas de segurança.</p>
+                </div>
             </div>
             <div class="service-card reveal">
-                <div class="service-icon icon-red">🦟</div>
-                <h3>Descupinização</h3>
-                <p>Tratamento localizado e de solo contra cupins de madeira seca e subterrâneo.</p>
+                <div class="service-card-img"><img src="assets/service_cupim.png" alt="Descupinização"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-red">🦟</div>
+                    <h3>Descupinização</h3>
+                    <p>Tratamento localizado e de solo contra cupins de madeira seca e subterrâneo.</p>
+                </div>
             </div>
             <div class="service-card reveal">
-                <div class="service-icon icon-red">🕷️</div>
-                <h3>Controle de Aranhas</h3>
-                <p>Eliminação de aranhas peçonhentas e não-peçonhentas com produtos residuais.</p>
+                <div class="service-card-img"><img src="assets/service_aranha.png" alt="Controle de Aranhas"></div>
+                <div class="service-card-content">
+                    <div class="service-icon icon-red">🕷️</div>
+                    <h3>Controle de Aranhas</h3>
+                    <p>Eliminação de aranhas peçonhentas e não-peçonhentas com produtos residuais.</p>
+                </div>
             </div>
         </div>
 
@@ -223,11 +292,8 @@
         <div class="footer-content">
             <div class="footer-brand">
                 <div class="footer-logo">
-                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                        <polygon points="25,2 48,25 25,48 2,25" fill="#e31b23" />
-                        <circle cx="25" cy="21" r="4" fill="#fff" />
-                        <ellipse cx="25" cy="30" rx="6" ry="8" fill="#fff" />
-                    </svg>
+                    <img src="assets/logo.png" alt="Mega Black Logo"
+                        style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
                     <span>MEGA BLACK</span>
                 </div>
                 <p>Empresa especializada em desentupimento, limpeza de caixa d'água e controle de pragas. Atendemos toda
